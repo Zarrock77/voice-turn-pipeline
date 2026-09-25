@@ -17,6 +17,7 @@
     }
   },
   "scripts": {
+    "prepare": "tsc",
     "build": "tsc",
     "typecheck": "tsc --noEmit",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
